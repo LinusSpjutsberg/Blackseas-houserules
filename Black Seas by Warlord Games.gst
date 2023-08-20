@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="30" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="32" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -327,7 +327,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
-            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">5H-4L-5C</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">5H-4L-4C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">104</characteristic>
@@ -575,7 +575,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="02e4-596d-3059-b39e" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="400.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="380.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="21" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="22" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -253,7 +253,7 @@ damage from that hit.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7b8-5b1a-b77b-2354" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="580.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="590.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
