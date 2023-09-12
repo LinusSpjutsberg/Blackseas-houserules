@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="32" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="33" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -2416,7 +2416,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4846-7028-2177-8c52" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="55.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4018,6 +4018,72 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="310.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5620-3caf-077e-f383" name="Corvette" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fd4d-8d41-b8aa-0e20" name="Corvette - More Carronades" publicationId="4400-38ae-29ec-f309" page="73" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="5620-3caf-077e-f383" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="5620-3caf-077e-f383" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">S</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">24</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dad4-8436-4f74-063f" name="Corvette" publicationId="4400-38ae-29ec-f309" page="73" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="5620-3caf-077e-f383" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="5620-3caf-077e-f383" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">S</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">24</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="a23f-8386-093f-6620" name="Corvette" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c860-65ad-bf34-46b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97e8-c803-4efa-38d4" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="90.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

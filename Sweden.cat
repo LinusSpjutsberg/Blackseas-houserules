@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dc86-8c05-a470-db5c" name="Sweden" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dc86-8c05-a470-db5c" name="Sweden" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="125d-1f9a-b31d-2a32" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -49,7 +49,7 @@
               </conditionGroups>
             </modifier>
           </modifiers>
-          <description>All Swedish ships medium or larger ignore their first 2 tests to strike flag. This in the spirit of gå på, to push on no matter what. </description>
+          <description>All Swedish ships medium or larger ignore their first 1 test to strike flag. This in the spirit of gå på, to push on no matter what. </description>
         </rule>
       </rules>
       <infoLinks>
@@ -80,7 +80,7 @@
       <profiles>
         <profile id="623b-9e75-7600-2776" name="Venus" publicationId="600d-46bd-39bc-a54b" page="" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <characteristics>
-            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-1L</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
@@ -621,6 +621,27 @@
           </rules>
           <costs>
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="70e3-d82b-6596-faca" name="Rudolf Cederström" publicationId="600d-46bd-39bc-a54b" page="65" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="176a-d13a-563b-4618" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d61d-42fd-1ae6-215d" name="Rudolf Cederström" publicationId="600d-46bd-39bc-a54b" page="65" hidden="false">
+              <description>Any frigate (6th 5th or 4th rate) within 10&quot; of Cederström, including his own, can re-roll the first broadside it shoots. All dice are re-rolled and the second result must be accepted
+</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

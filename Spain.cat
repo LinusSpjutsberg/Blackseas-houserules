@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1b1-7855-47de-5089" name="Spain" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1b1-7855-47de-5089" name="Spain" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a605-f4ae-6072-962d" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -392,20 +392,6 @@
         <entryLink id="3274-1ff2-88a7-e2fa" name="Special Characters" hidden="false" collective="false" import="true" targetId="f212-44c3-d60b-b7b4" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="ea8a-e087-22f9-1e97" name="2nd Rate" hidden="false" collective="false" import="true" targetId="4bad-abd8-8743-84e0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="456d-6875-0455-5894" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="1360-9e43-13d5-21b9" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="7dab-c3d7-60a6-6ab4" type="selectionEntryGroup"/>
-        <entryLink id="1793-eef1-7bad-4626" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="d50d-b95e-6740-cf1b" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="bf95-8c25-757f-c73d" value="4.0"/>
-          </modifiers>
-        </entryLink>
-        <entryLink id="9b6c-dfb6-6eb0-3a2a" name="Special Characters" hidden="false" collective="false" import="true" targetId="f212-44c3-d60b-b7b4" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
     <entryLink id="320a-c6fd-b565-1987" name="3rd Rate 74" hidden="false" collective="false" import="true" targetId="97a2-1cff-c1ab-c915" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b704-b281-1e96-be6b" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
@@ -434,7 +420,7 @@
         <entryLink id="f339-1367-de9c-178d" name="Special Characters" hidden="false" collective="false" import="true" targetId="f212-44c3-d60b-b7b4" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="c3f7-be4d-97df-5f48" name="3rd Rate (Small)" hidden="false" collective="false" import="true" targetId="3bb3-9779-d91b-efc8" type="selectionEntry">
+    <entryLink id="c3f7-be4d-97df-5f48" name="3rd Rate 64" hidden="false" collective="false" import="true" targetId="3bb3-9779-d91b-efc8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7493-824a-a10b-342a" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
@@ -824,6 +810,20 @@
           </modifiers>
         </entryLink>
         <entryLink id="77d3-4856-65c6-9721" name="Special Characters" hidden="false" collective="false" import="true" targetId="f212-44c3-d60b-b7b4" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="00e3-35ad-899b-4d3c" name="Corvette" hidden="false" collective="false" import="true" targetId="5620-3caf-077e-f383" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4098-8f18-9a22-1329" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="29f1-8fda-1d55-084c" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="7dab-c3d7-60a6-6ab4" type="selectionEntryGroup"/>
+        <entryLink id="5528-3649-988e-7491" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="d50d-b95e-6740-cf1b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="bf95-8c25-757f-c73d" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="06e9-735b-6cc3-c9d7" name="Special Characters" hidden="false" collective="false" import="true" targetId="f212-44c3-d60b-b7b4" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
   </entryLinks>
