@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="23" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="24" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -425,12 +425,12 @@ damage from that hit.</description>
         <profile id="ff74-b6c6-dbba-0f85" name="HMS Majestic" publicationId="600d-46bd-39bc-a54b" page="" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
-            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-5C</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-4C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">68</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">20</characteristic>
           </characteristics>
         </profile>
@@ -472,20 +472,24 @@ damage from that hit.</description>
       <profiles>
         <profile id="f241-d1ff-c5d5-8628" name="HMS Glatton" publicationId="600d-46bd-39bc-a54b" page="" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <characteristics>
-            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
-            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">5C</characteristic>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">6C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b"/>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818"/>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">40</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">44</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
-            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">15</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="f730-e39c-da3c-8018" name="HMS Glatton" hidden="false">
+          <description>HMS Glatton. Captain Trollop rule. If the Glatton is alone with 3 or more rated ships within 6&quot; and no firendly ship within 10&quot;, add +1 carronade to its broadside. This is to reflect the agressivness captain Trollop. This ship can have not other special characters.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="73a4-c593-4f6a-348a" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
-        <infoLink id="e156-5649-c03e-33f3" name="Master Gunner" hidden="false" targetId="5f06-b686-733b-5b7e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8b79-b978-ba73-9de4" name="Famous Ships" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
@@ -497,13 +501,10 @@ damage from that hit.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c8d-e0e2-5a22-bd2e" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="220.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="270.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="5e2a-2b3f-fbfd-d503" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
       </costs>
