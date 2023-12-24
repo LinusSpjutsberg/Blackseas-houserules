@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="24" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="26" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -270,16 +270,6 @@ damage from that hit.</description>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff0b-d141-8496-da16" type="min"/>
       </constraints>
       <rules>
-        <rule id="e7f9-ae92-e508-ceb9" name="Drilled" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <description>British ships receive a +1 to hit modifier when shooting.</description>
-        </rule>
         <rule id="b86b-6a66-17dc-3b1d" name="The Admiralty" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -511,7 +501,7 @@ damage from that hit.</description>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="7ecf-c560-104b-b05e" name="1st Rate" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
+    <entryLink id="7ecf-c560-104b-b05e" name="1st Rate 100" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7ddd-8d0d-73d2-1346" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
@@ -1031,6 +1021,20 @@ damage from that hit.</description>
           </modifiers>
         </entryLink>
         <entryLink id="4a18-32ae-4da3-b98b" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="eea6-8ff8-2703-3bdf" name="1st Rate 120" hidden="false" collective="false" import="true" targetId="979e-c51c-afdb-9d94" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2834-d3dd-9e61-ad47" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="31bc-823f-eda5-c89a" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="638b-b1b1-fbfe-17f6" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5624-e008-8eb3-a6f2" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
   </entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="33" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="37" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -206,7 +206,7 @@
         <infoLink id="ad2b-b06a-f084-45b6" name="Streamlined Hull" hidden="false" targetId="2240-a61f-8153-6282" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6021-8f0f-9f64-1a9b" name="Sturdy" hidden="false" collective="false" import="true" type="model">
@@ -287,7 +287,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d273-1a5d-79fc-d725" name="1st Rate" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d273-1a5d-79fc-d725" name="1st Rate 100" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="7561-55fd-27a1-c54b" value="2.0">
           <repeats>
@@ -307,7 +307,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7561-55fd-27a1-c54b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="85ce-1596-591d-680f" name="1st Rate - More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="85ce-1596-591d-680f" name="1st Rate 100 - More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -336,7 +336,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">35</characteristic>
           </characteristics>
         </profile>
-        <profile id="6dbe-f026-3f42-a236" name="1st Rate" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="6dbe-f026-3f42-a236" name="1st Rate 100" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -365,7 +365,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">35</characteristic>
           </characteristics>
         </profile>
-        <profile id="25ea-5bf6-23a2-e0e8" name="1st Rate - Over Gunned &amp; More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="25ea-5bf6-23a2-e0e8" name="1st Rate - 100 Over Gunned &amp; More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -394,7 +394,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">35</characteristic>
           </characteristics>
         </profile>
-        <profile id="a74c-e7a1-b923-c3bd" name="1st Rate - Over Gunned" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="a74c-e7a1-b923-c3bd" name="1st Rate 100 - Over Gunned" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -425,7 +425,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="f930-320d-722c-2b47" name="1st Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f930-320d-722c-2b47" name="1st Rate 100" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1e1-ac14-ec21-4046" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec1a-5c03-1d05-029c" type="max"/>
@@ -3108,7 +3108,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">S</characteristic>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">T</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1L-1C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
@@ -3132,7 +3132,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">S</characteristic>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">T</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1L</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
@@ -4083,7 +4083,159 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97e8-c803-4efa-38d4" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="90.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="95.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="979e-c51c-afdb-9d94" name="1st Rate 120" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="091c-c696-6e29-05e5" value="1.0">
+          <repeats>
+            <repeat field="limit::7d88-7913-6ca0-ac33" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d21-bb9f-e8c4-cc80" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="091c-c696-6e29-05e5" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d21-bb9f-e8c4-cc80" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="091c-c696-6e29-05e5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c1fd-4f34-5808-50cb" name="1st Rate 120 - More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">7H-4L-4C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">2H</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">120</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">3</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a314-c380-31b5-0569" name="1st Rate 120" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">7H-4L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">2H</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">120</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">3</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="db5f-827c-d55b-f5ec" name="1st Rate - 120 Over Gunned &amp; More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">8H-5L-4C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">2H</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">120</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">3</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="506a-a558-860d-11e9" name="1st Rate 120 - Over Gunned" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                    <condition field="selections" scope="979e-c51c-afdb-9d94" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">8H-5L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">2H</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">120</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">3</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">40</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="e6cb-2e45-2d18-c9a1" name="1st Rate 120" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b0c-c3ca-d32e-31bb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51fb-92df-4dcd-ea3b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="560.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4235,7 +4387,7 @@ hit, in boarding actions against merchant ships.</description>
       <description>For each hit suffered during a boarding action, make a Skill Test. On a success, take no damage for that hit.</description>
     </rule>
     <rule id="2240-a61f-8153-6282" name="Streamlined Hull" publicationId="4400-38ae-29ec-f309" page="75" hidden="false">
-      <description>Add 1&quot; to the ship’s Rate of Knots the first time it moves per activation.</description>
+      <description>Add 1&quot; to the ship’s Rate of Knots </description>
     </rule>
     <rule id="b66a-dbc3-b8d9-c252" name="Swivel Guns" publicationId="4400-38ae-29ec-f309" page="75" hidden="false">
       <description>Before the first round of a boarding action, make a successful Skill Test to inflict 4 damage on the enemy before any further action takes place.</description>

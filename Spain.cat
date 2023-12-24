@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1b1-7855-47de-5089" name="Spain" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1b1-7855-47de-5089" name="Spain" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a605-f4ae-6072-962d" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -115,7 +115,7 @@
         <profile id="802f-e1aa-1969-83c0" name="Santisima Trinidad" publicationId="4400-38ae-29ec-f309" page="83" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
-            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">6H-5L-4C</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">8H-5L-4C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">2H</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">144</characteristic>
@@ -143,7 +143,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c714-af48-80a1-9e61" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="700.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="760.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -197,7 +197,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ffaa-1593-37f9-c5ef" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="450.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="500.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -378,7 +378,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="0c8f-c80b-bb01-874f" name="1st Rate" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
+    <entryLink id="0c8f-c80b-bb01-874f" name="1st Rate 100" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d7b9-e175-8471-0faa" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
@@ -824,6 +824,20 @@
           </modifiers>
         </entryLink>
         <entryLink id="06e9-735b-6cc3-c9d7" name="Special Characters" hidden="false" collective="false" import="true" targetId="f212-44c3-d60b-b7b4" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="19e2-0e35-33d6-6f23" name="1st Rate 120" hidden="false" collective="false" import="true" targetId="979e-c51c-afdb-9d94" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="814d-e56b-a689-1886" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3abe-d31d-3665-1124" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="7dab-c3d7-60a6-6ab4" type="selectionEntryGroup"/>
+        <entryLink id="e9c2-2c1b-bea2-26de" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="d50d-b95e-6740-cf1b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="bf95-8c25-757f-c73d" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="64d1-66f0-549a-dfe4" name="Special Characters" hidden="false" collective="false" import="true" targetId="f212-44c3-d60b-b7b4" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
   </entryLinks>

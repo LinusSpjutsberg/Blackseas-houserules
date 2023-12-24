@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b02-6c36-6559-58a5" name="France" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b02-6c36-6559-58a5" name="France" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4e41-72ba-33bd-c516" name="Bucentaure" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -179,17 +179,7 @@
               </conditions>
             </modifier>
           </modifiers>
-          <description>French ships were usually very fast. The Streamlined Hull upgrade only costs 20 points for French ships as a result.</description>
-        </rule>
-        <rule id="f96c-f336-3728-a6de" name="Double Planking" publicationId="4400-38ae-29ec-f309" page="80" hidden="false">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <description>Some French ships were much sturdier than their counterparts. French ships may take the Sturdy upgrade for only 40 points.</description>
+          <description>French ships were usually very fast. The Streamlined Hull upgrade only costs 40 points for French ships as a result.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -363,7 +353,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="9e60-ca04-b98a-e854" name="1st Rate" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
+    <entryLink id="9e60-ca04-b98a-e854" name="1st Rate 100" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d351-c42f-6520-4eeb" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
@@ -871,6 +861,20 @@
         <entryLink id="d3ab-ebc3-431f-b156" name="Special Characters" hidden="false" collective="false" import="true" targetId="0c37-3de9-89f8-8b60" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="67b9-1af7-2b2b-71c9" name="1st Rate 120" hidden="false" collective="false" import="true" targetId="979e-c51c-afdb-9d94" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a9a9-62e4-a130-15ad" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4a9b-4af6-392c-24aa" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="0597-80aa-e88f-78be" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="f036-9f23-ea9a-3d8a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="3a4b-4313-c1ff-ed76" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8a20-acf6-8fbf-bfc2" name="Special Characters" hidden="false" collective="false" import="true" targetId="0c37-3de9-89f8-8b60" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="0c37-3de9-89f8-8b60" name="Special Characters" hidden="false" collective="false" import="true">
@@ -1009,15 +1013,6 @@
         <entryLink id="394f-53dc-e54e-e373" name="Boarding Nets" hidden="false" collective="false" import="true" targetId="fb62-ef5d-64c3-de33" type="selectionEntry"/>
         <entryLink id="5b80-965e-4323-9d2f" name="Streamlined Hull" hidden="false" collective="false" import="true" targetId="e1a3-4e32-2de5-c232" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="7d88-7913-6ca0-ac33" value="20.0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="b985-b929-1029-3233" name="Sturdy" hidden="false" collective="false" import="true" targetId="6021-8f0f-9f64-1a9b" type="selectionEntry">
-          <modifiers>
             <modifier type="set" field="7d88-7913-6ca0-ac33" value="40.0">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
@@ -1025,6 +1020,7 @@
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="b985-b929-1029-3233" name="Sturdy" hidden="false" collective="false" import="true" targetId="6021-8f0f-9f64-1a9b" type="selectionEntry"/>
         <entryLink id="a872-0ebb-3cac-73a4" name="Shallow Draft" page="" hidden="false" collective="false" import="true" targetId="d4fb-3433-12ae-b485" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
