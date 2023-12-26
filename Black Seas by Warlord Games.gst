@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="37" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="40" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -2931,7 +2931,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a41c-a8d9-eb48-b9f7" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="210.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="215.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3573,7 +3573,7 @@
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">40</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">14</characteristic>
           </characteristics>
         </profile>
@@ -3602,7 +3602,7 @@
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">40</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">14</characteristic>
           </characteristics>
         </profile>
@@ -3631,7 +3631,7 @@
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">40</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">14</characteristic>
           </characteristics>
         </profile>
@@ -3660,7 +3660,7 @@
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">40</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">14</characteristic>
           </characteristics>
         </profile>
@@ -3672,7 +3672,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9dc-bfab-61de-8733" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="180.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="185.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4045,7 +4045,7 @@
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-2C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">24</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">25</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">8</characteristic>
@@ -4069,7 +4069,7 @@
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-1C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">24</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">25</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">8</characteristic>
@@ -4083,7 +4083,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97e8-c803-4efa-38d4" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="95.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="100.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4235,7 +4235,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51fb-92df-4dcd-ea3b" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="560.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="610.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
