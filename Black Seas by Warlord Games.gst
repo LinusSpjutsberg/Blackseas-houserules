@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="40" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="41" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -324,6 +324,11 @@
                 <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
@@ -351,6 +356,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -382,6 +392,11 @@
                 <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
@@ -409,6 +424,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d273-1a5d-79fc-d725" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -468,6 +488,11 @@
                 <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
@@ -495,6 +520,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -526,6 +556,11 @@
                 <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
@@ -553,6 +588,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4bad-abd8-8743-84e0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -602,6 +642,11 @@
                 <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -629,6 +674,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -660,6 +710,11 @@
                 <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -687,6 +742,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -736,6 +796,11 @@
                 <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -763,6 +828,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -794,6 +864,11 @@
                 <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -821,6 +896,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="3bb3-9779-d91b-efc8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -888,6 +968,11 @@
                 <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -915,6 +1000,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -946,6 +1036,11 @@
                 <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -973,6 +1068,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="4b95-6630-7b1d-33b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1022,6 +1122,11 @@
                 <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -1049,6 +1154,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1080,6 +1190,11 @@
                 <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -1107,6 +1222,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="5536-64cc-de6c-fda3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1157,6 +1277,11 @@
                 <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -1184,6 +1309,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1215,6 +1345,11 @@
                 <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -1242,6 +1377,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="a120-b934-6963-b4b3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1286,6 +1426,11 @@
                 <condition field="selections" scope="9e61-60e2-3796-19f0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="9e61-60e2-3796-19f0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">S</characteristic>
@@ -1308,6 +1453,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="9e61-60e2-3796-19f0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="9e61-60e2-3796-19f0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2675,6 +2825,11 @@
                 <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -2702,6 +2857,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2733,6 +2893,11 @@
                 <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -2760,6 +2925,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="9af3-3a0d-17e3-0b14" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2824,6 +2994,11 @@
                 <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -2851,6 +3026,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2882,6 +3062,11 @@
                 <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -2909,6 +3094,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="2334-6787-3a8d-f3ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3565,6 +3755,11 @@
                 <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -3592,6 +3787,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3623,6 +3823,11 @@
                 <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
@@ -3650,6 +3855,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="d3ce-8ee5-ad09-0aba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3706,6 +3916,11 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="e2c7-67eb-61ec-d224" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -3734,6 +3949,11 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="e2c7-67eb-61ec-d224" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -3764,6 +3984,11 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="e2c7-67eb-61ec-d224" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -3793,6 +4018,11 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="e2c7-67eb-61ec-d224" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
             </modifier>
           </modifiers>
           <characteristics>
@@ -3910,6 +4140,11 @@
                 <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -3937,6 +4172,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3968,6 +4208,11 @@
                 <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
@@ -3995,6 +4240,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="fbc9-34a2-915f-028e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4039,6 +4289,11 @@
                 <condition field="selections" scope="5620-3caf-077e-f383" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="5620-3caf-077e-f383" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">S</characteristic>
@@ -4061,6 +4316,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="5620-3caf-077e-f383" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="5620-3caf-077e-f383" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4128,6 +4388,11 @@
                 <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
@@ -4155,6 +4420,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4186,6 +4456,11 @@
                 <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
@@ -4213,6 +4488,11 @@
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
                 <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="979e-c51c-afdb-9d94" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
