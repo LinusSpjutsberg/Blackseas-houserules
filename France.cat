@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b02-6c36-6559-58a5" name="France" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b02-6c36-6559-58a5" name="France" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4e41-72ba-33bd-c516" name="Bucentaure" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -437,7 +437,7 @@
         <entryLink id="ec8e-5b61-e553-8f2c" name="Special Characters" hidden="false" collective="false" import="true" targetId="0c37-3de9-89f8-8b60" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="5e98-3f4d-f403-75c2" name="5th Rate Frigate" hidden="false" collective="false" import="true" targetId="5536-64cc-de6c-fda3" type="selectionEntry">
+    <entryLink id="5e98-3f4d-f403-75c2" name="5th Rate Frigate - Large" hidden="false" collective="false" import="true" targetId="5536-64cc-de6c-fda3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8598-1791-0cab-833e" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
@@ -873,6 +873,20 @@
           </modifiers>
         </entryLink>
         <entryLink id="8a20-acf6-8fbf-bfc2" name="Special Characters" hidden="false" collective="false" import="true" targetId="0c37-3de9-89f8-8b60" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9e2e-da2f-ee26-8a75" name="5th Rate Frigate - Small" hidden="false" collective="false" import="true" targetId="ba98-faf6-4c4b-97ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="373a-65f3-43aa-c958" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4d69-4afc-3af5-bf20" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="b265-c59d-d7c9-4f58" name="Special Characters" hidden="false" collective="false" import="true" targetId="0c37-3de9-89f8-8b60" type="selectionEntryGroup"/>
+        <entryLink id="406b-5120-6af6-9d01" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="f036-9f23-ea9a-3d8a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="3a4b-4313-c1ff-ed76" value="2.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </entryLink>
   </entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="41" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="43" battleScribeVersion="2.03" authorName="Linus Spjutsberg" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -1103,9 +1103,9 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5536-64cc-de6c-fda3" name="5th Rate Frigate" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5536-64cc-de6c-fda3" name="5th Rate Frigate - Large" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9228-dcac-04f2-9829" name="5th Rate Frigate - More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="9228-dcac-04f2-9829" name="5th Rate Frigate - Large - More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1139,7 +1139,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="2b37-388e-eaf5-4a51" name="5th Rate Frigate" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="2b37-388e-eaf5-4a51" name="5th Rate Frigate - Large" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1173,7 +1173,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="78d6-d455-81cb-4765" name="5th Rate Frigate - Over Gunned &amp; More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="78d6-d455-81cb-4765" name="5th Rate Frigate - Large - Over Gunned &amp; More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1207,7 +1207,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="d7e0-c85c-1e4d-3ef8" name="5th Rate Frigate - Over Gunned" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="d7e0-c85c-1e4d-3ef8" name="5th Rate Frigate - Large - Over Gunned" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1243,7 +1243,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="a78f-d0ab-60a7-8710" name="5th Rate Frigate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a78f-d0ab-60a7-8710" name="5th Rate Frigate - Large" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3e6-7e20-4e87-acec" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="957a-a71c-7ec5-dc78" type="max"/>
@@ -1480,7 +1480,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d045-3749-1d73-f08f" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="80.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="70.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1745,10 +1745,10 @@
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2L-1C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">12</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">14</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">6</characteristic>
-            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">5</characteristic>
           </characteristics>
         </profile>
         <profile id="0852-fd09-53d4-9b19" name="Cutter" publicationId="4400-38ae-29ec-f309" page="73" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
@@ -1769,10 +1769,10 @@
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2L</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">12</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">14</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">6</characteristic>
-            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1794,7 +1794,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e448-10db-e9d5-d00d" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="55.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2566,7 +2566,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4846-7028-2177-8c52" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="55.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="45.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2699,10 +2699,10 @@
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-1L</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">16</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">14</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
-            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">6</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2750,7 +2750,7 @@
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">10</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">6</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">4</characteristic>
           </characteristics>
         </profile>
@@ -3284,30 +3284,6 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2034-cb4f-8fba-0584" name="Cutter (Small)- More Carronades" publicationId="600d-46bd-39bc-a54b" page="89" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="9a56-4d24-336e-2953" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
-              <conditions>
-                <condition field="selections" scope="9a56-4d24-336e-2953" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">T</characteristic>
-            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1L-1C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
-            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">12</characteristic>
-            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">6</characteristic>
-            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">4</characteristic>
-          </characteristics>
-        </profile>
         <profile id="d9d2-52c6-264d-d078" name="Cutter (Small)" publicationId="600d-46bd-39bc-a54b" page="89" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -4300,7 +4276,7 @@
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-2C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">25</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">24</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">8</characteristic>
@@ -4329,7 +4305,7 @@
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-1C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">-</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">25</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">24</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
             <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">8</characteristic>
@@ -4343,7 +4319,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97e8-c803-4efa-38d4" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="100.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="95.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4515,7 +4491,161 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51fb-92df-4dcd-ea3b" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="610.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="620.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba98-faf6-4c4b-97ca" name="5th Rate Frigate - Small" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d671-9116-a174-0c1c" name="5th Rate Frigate - Small - More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">32</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e66b-e7bd-0536-8c4e" name="5th Rate Frigate - Small" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">1H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">32</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2788-2d70-59e3-b31d" name="5th Rate Frigate - Small - Over Gunned &amp; More Carronades" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-3L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">32</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="41c0-fb1f-b991-a2ce" name="5th Rate Frigate - Small - Over Gunned" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                    <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4593-98e1-47df-309f" value="1">
+              <conditions>
+                <condition field="selections" scope="ba98-faf6-4c4b-97ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1a3-4e32-2de5-c232" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-3L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">32</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">11</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="799c-a078-6684-30fd" name="5th Rate Frigate - Small" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c2a8-990e-ee73-fbb9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2723-0588-a77b-46ab" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="135.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

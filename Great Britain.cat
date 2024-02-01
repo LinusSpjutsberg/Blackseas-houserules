@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="26" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="28" battleScribeVersion="2.03" authorName="Linus Spjutsberg" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -599,7 +599,7 @@ damage from that hit.</description>
         <entryLink id="52f6-0479-71a8-5bfc" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="a498-0d59-b3da-3843" name="5th Rate" hidden="false" collective="false" import="true" targetId="5536-64cc-de6c-fda3" type="selectionEntry">
+    <entryLink id="a498-0d59-b3da-3843" name="5th Rate Frigate - Large" hidden="false" collective="false" import="true" targetId="5536-64cc-de6c-fda3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="25f2-d652-07d9-b3e4" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
@@ -1035,6 +1035,20 @@ damage from that hit.</description>
           </modifiers>
         </entryLink>
         <entryLink id="5624-e008-8eb3-a6f2" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6b5f-9ec3-7c16-30dd" name="5th Rate Frigate - Small" hidden="false" collective="false" import="true" targetId="ba98-faf6-4c4b-97ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a4b8-58ba-8d23-ccdc" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9b08-eea0-8061-b6fa" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="c792-a63c-4f25-876c" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+        <entryLink id="236e-2ed4-2bb9-cde1" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </entryLink>
   </entryLinks>
